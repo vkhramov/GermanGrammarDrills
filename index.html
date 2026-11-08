@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#172b4d"><meta name="description" content="Personal German grammar practice companion for the supplied German Grammar Drills book.">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+  <title>GermanGrammarDrills</title>
+</head>
+<body>
+<header class="topbar"><button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button><div class="brand"><span class="brand-mark">G</span><div><strong>GermanGrammarDrills</strong><small>Personal study companion</small></div></div><button class="icon-btn" id="installBtn" hidden>Install</button></header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <div class="side-label">STUDY</div>
+    <button class="nav-btn active" data-view="home">⌂ <span>Overview</span></button>
+    <button class="nav-btn" data-view="reader">▤ <span>Book reader</span></button>
+    <button class="nav-btn" data-view="exercises">✎ <span>Exercises</span></button>
+    <button class="nav-btn" data-view="mistakes">↻ <span>Mistake review</span><b id="mistakeCount" class="count">0</b></button>
+    <button class="nav-btn" data-view="progress">◷ <span>Progress</span></button>
+    <div class="sidebar-bottom"><div class="source-note">Content is taken only from your imported PDF data.</div><button id="changeBook" class="text-btn">Import / replace book data</button></div>
+  </aside>
+  <main id="main" class="main"><section class="loading">Loading GermanGrammarDrills…</section></main>
+</div>
+<input type="file" id="bookFile" accept=".json,application/json" hidden>
+<div id="toast" class="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
