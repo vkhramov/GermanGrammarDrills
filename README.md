@@ -38,4 +38,7 @@ The book data and learning progress are stored locally in this browser. Clearing
 
 
 ## App version
-The current app version is shown at the bottom of the navigation menu. This release is **v1.0.1**. The service-worker cache version was also bumped so deployed browsers can fetch the updated files.
+The current app version is shown at the bottom of the navigation menu. This release is **v1.0.2**. The service-worker cache version was also bumped so deployed browsers can fetch the updated files.
+
+
+Version 1.0.2: checked answers now receive inline green/red feedback. Incorrect answers display the corresponding answer from the imported Answer Key. Sample-answer/manual-review exercises remain ungraded automatically.

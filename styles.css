@@ -9,3 +9,11 @@
 .prompt-answer .answer-field label{font-size:11px}
 
 .app-version{margin-top:16px;padding-top:12px;border-top:1px solid var(--line);font-size:10px;color:#9aa5b5;display:flex;justify-content:space-between;gap:8px}.app-version span{font-weight:800;color:#68778d}
+
+/* Immediate per-answer grading feedback */
+.answer-field textarea.answer-correct{border:2px solid #16834a!important;background:#effaf2!important;color:#14532d}
+.answer-field textarea.answer-incorrect{border:2px solid #dc3545!important;background:#fff1f2!important;color:#881337}
+.answer-feedback{font-size:13px;line-height:1.5;margin-top:7px;padding:8px 10px;border-radius:8px}
+.feedback-correct{color:#166534;background:#ecfdf3;border:1px solid #bbf7d0}
+.feedback-incorrect{color:#9f1239;background:#fff1f2;border:1px solid #fecdd3}
+.answer-feedback strong{display:block;margin-bottom:2px}
