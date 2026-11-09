@@ -19,9 +19,11 @@ The Pages repository contains only the application code. The private JSON contai
 
 ## Features
 
+- Book-wide reading progress: the current PDF page and exact scroll position are saved automatically, including when you switch to exercises or leave the app. Resume reading from the same place.
 - Book page reader with chapter navigation and page-by-page controls.
 - 215 numbered exercises extracted from the PDF.
-- Answer checking against the extracted Answer Key, without adding external answers.
+- Each answer field appears directly below its corresponding numbered prompt.
+- Answers are saved automatically as you type; checking uses only the extracted Answer Key, without adding external answers.
 - Exercises marked as sample answers are never automatically graded; they are sent to manual review.
 - Mistake review, saved drafts, completion status and progress.
 - Offline app shell after the first visit; book data and progress are saved in the browser's local storage.
