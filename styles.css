@@ -7,3 +7,5 @@
 .prompt-answer{margin:0 0 16px}
 .prompt-answer .answer-field{margin:8px 0 0 12px;padding-left:12px;border-left:2px solid #dbe3ff}
 .prompt-answer .answer-field label{font-size:11px}
+
+.app-version{margin-top:16px;padding-top:12px;border-top:1px solid var(--line);font-size:10px;color:#9aa5b5;display:flex;justify-content:space-between;gap:8px}.app-version span{font-weight:800;color:#68778d}
